@@ -1,0 +1,18 @@
+{
+  "name": "weatherapi",
+  "version": "1.0.0",
+  "description": "return json data for spring batch job to consume",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nimai",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "flatted": "^3.2.5",
+    "nodemon": "^2.0.16"
+  }
+}
